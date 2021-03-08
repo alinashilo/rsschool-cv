@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    margin: 20px auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 50%;
+    border-right: 2px solid #CB7F2E;
+}
+
+.left section {
+    padding: 10px 0;
+}
+
+#contacts {
+    line-height: 1.5;
+}
+
+#skills ul {
+    list-style-type: square;
+    padding-left: 17px;
+}
+
+.right {
+    margin-left: 40px;
+}
+
+.right section {
+    border-bottom: 2px solid #CB7F2E;
+    padding: 10px 0;
+}
+
+.right section:nth-last-child(1) {
+    border-bottom: none;
+}
+
+#main-block {
+    text-align: center;
+}
+
+#avatar {
+    width: 200px;
+    border-radius: 100%;
+}
+
+h1, h2, h3, h5 {
+    text-transform: uppercase;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h5 {
+    font-weight: 400;
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+i {
+    color: #CB7F2E;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+#education ul li span, #work-experience ul li span{
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 15px;
+}
+
+#education ul li span:first-of-type, #work-experience ul li span:first-of-type {
+    width: 30%;
+}
+
+pre {
+    background: lightgray;
+    padding: 15px;
+    border-radius: 15px;
+}
