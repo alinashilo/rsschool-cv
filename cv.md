@@ -5,6 +5,17 @@
 * Email: alinashilo98@gmail.com
 * Linkedin: [Alina Shilo](https://www.linkedin.com/in/alina-shilo-498a7517a/)
 
+## About me
+I'm looking for a job where I can develop my skills and build a career in Front-end development. I'm adaptive and flexible person, and can perform effectively in a deadline environment. I'm highly motivated, ready to study a large amount of new information and practice a lot.  
+
+## Skills
+* HTML5
+* CSS3
+* JavaScript
+* React
+* Git
+* Webpack
+
 ## Code examples
 Function that reverse number:
 ```sh
