@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <link href="assets/styles/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/74dcf1447a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<main>
+    <div class="column left">
+        <section id="main-block">
+            <figure>
+                <img src="assets/images/avatar.JPG" alt="avatar" id="avatar">
+            </figure>
+            <h1>Alina Shilo</h1>
+            <h5>Front-end Developer</h5>
+        </section>
+        <section id="contacts">
+            <h3>Contacts</h3>
+            <ul>
+                <li><i class="fas fa-phone-alt"></i>+375293564094</li>
+                <li><i class="fas fa-envelope"></i>alinashilo98@gmail.com</li>
+                <li><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/alina-shilo-498a7517a/">Alina Shilo</a></li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Git</li>
+                <li>Webpack</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Foreign Languages</h3>
+            <p>English - A2</p>
+        </section>
+    </div>
+
+    <div class="column right">
+        <section>
+            <h3>About me</h3>
+            <p>I'm looking for a job where I can develop my skills and build a career in Front-end development.
+                I'm adaptive and flexible person, and can perform effectively in a deadline environment.
+                I'm highly motivated, ready to study a large amount of new information and practice a lot.</p>
+        </section>
+        <section id="education">
+            <h3><i class="fas fa-graduation-cap"></i>Education</h3>
+            <ul>
+                <li><span>Nov. 2019 - May 2020</span><span><strong>IT-school TeachMeSkills</strong> <br>Front-end Developer</span></li>
+                <li><span>Sept. 2016 - June 2020</span><span><strong>BSUIR</strong> <br>Specialty: economist-programist</span></li>
+            </ul>
+        </section>
+        <section id="work-experience">
+            <h3><i class="fas fa-briefcase"></i>Work experience</h3>
+            <ul>
+                <li><span>IT-school TeachMeSkills</span><span>Front-end Developer course
+                <br>Final project: <a href="https://github.com/alinashilo/notes-app">Notes App</a> (React & Redux)</span></li>
+            </ul>
+        </section>
+        <section>
+            <h3><i class="fas fa-code"></i>Code examples</h3>
+            <p>Function that reverse number:</p>
+            <pre>function reverse (n) {
+    return +String(n >= 0 ? n : -n).split('').reverse().join('');
+}</pre>
+            <p>Function that return minimal value in array: </p>
+            <pre>function min (array) {
+    if (!array || !array.length) {
+        return 0;
+    } else return Math.min(...array);
+}</pre>
+        </section>
+    </div>
+</main>
+<footer>
+    <a href="https://rs.school/js/" target="_blank"><img src="assets/images/rs_school_js.svg" alt="rs-logo" id="rs-logo"></a>
+    <p><a href="https://github.com/alinashilo" target="_blank"><i class="fab fa-github fa-2x"></i>My GitHub</a> &copy2021</p>
+
+</footer>
+</body>
+</html>
