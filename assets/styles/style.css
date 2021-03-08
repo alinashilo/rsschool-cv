@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 
 main {
@@ -80,6 +81,10 @@ a {
     font-weight: 600;
 }
 
+a:hover {
+    font-weight: 700;
+}
+
 #education ul li span, #work-experience ul li span{
     display: inline-block;
     vertical-align: top;
@@ -94,4 +99,27 @@ pre {
     background: lightgray;
     padding: 15px;
     border-radius: 15px;
+}
+
+footer {
+    background: #CB7F2E;
+    height: 50px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+footer i {
+    color: black;
+}
+
+footer a {
+    font-weight: normal;
+
+}
+
+#rs-logo {
+    height: 25px;
 }
